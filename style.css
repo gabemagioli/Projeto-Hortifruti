@@ -1,0 +1,251 @@
+html{
+    width:940px;
+}
+.logo{
+    width: 10%;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-between;
+    align-items: center;
+    background-image: url('https://png.pngtree.com/back_origin_pic/04/15/25/b37c628ea364dbe8480d278021cb23aa.jpg');
+}
+
+.h1-header{
+    font-family: 'Goldman', cursive;
+    font-size:20px;
+}
+
+.pesquisa{
+    margin-left:15px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    height:19px;
+}
+
+.lupa{
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: white;
+    cursor:pointer;
+}
+
+.select{
+    align-content: space-between;
+    margin:5px;
+}
+
+.li{
+    display:inline-block;
+    margin:5px;
+    border:2px solid rgb(65, 107, 2);
+    border-radius:10px;
+    
+}
+
+ul a {
+    font-size:17px;
+    margin:3px;
+    cursor:pointer;
+    font-family: 'Goldman', cursive;
+}
+
+.informacoes{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    cursor:pointer;
+    background-color:rgb(86, 209, 86);
+    padding:10px;
+}
+
+.info-li{
+    font-family: 'Goldman', cursive;
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+
+.sobre{margin:30px;
+    border:1px solid;
+    border-radius: 15px;}
+.sobre-hidden{
+    margin:10px;
+    font-size:20px;
+    font-family: 'Goldman', cursive;
+    display: none;
+}
+
+.titulo-main{
+    margin:30px;
+    font-size: 30px;
+    font-weight:bold;
+    font-family: 'Goldman', cursive;
+}
+
+
+/*secoes de produtos*/
+.section-prod{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items:baseline;
+}
+.aba-prod{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+.fruta{
+    margin:30px;
+    border: 2px solid;
+    border-radius: 15px;
+    padding:5px;
+    width:15%;
+    height:130px;
+    cursor: pointer;
+}
+.fruta:hover{
+    transform:scale(1.1);
+    transition:0.8s;
+}
+.titulo2-main{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.img-fruta{
+    width:70%;
+    display:flex;
+    margin:25px;
+}
+
+.Carne{
+    margin:30px;
+    border: 2px solid;
+    border-radius: 15px;
+    padding:5px;
+    width:15%;
+    height:130px;
+    cursor: pointer;
+}
+.Carne:hover{
+    transform:scale(1.1);
+    transition:0.8s;
+}
+.img-carne{
+    width:70%;
+    display:flex;
+    margin:25px;
+}
+
+.adega{
+    margin:30px;
+    border: 2px solid;
+    border-radius: 15px;
+    padding:5px;
+    width:15%;
+    height:130px;
+    cursor: pointer;
+}
+.img-adega{
+    width:70%;
+    display:flex;
+    margin:25px;
+}
+.adega:hover{
+    transform:scale(1.1);
+    transition:0.8s;
+}
+
+/*promocao do dia*/
+.promocao-dia{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+.produto-diario{
+    margin:2px;
+    border: 0.01px solid gray;
+    padding:5px;
+    width:30%;
+    height:330px;
+    cursor: pointer;
+}
+
+.titulo-prod{
+    margin:10px;
+    font-size:25px;
+    font-family: 'Carter One', cursive;
+    text-align:center;
+}
+.img-dia{
+    width:60%;
+    display:flex;
+    margin:25px;
+    margin-top:30px;
+    align-content: center;
+}
+.preco-prod{
+    font-size:25px;
+    font-family: 'Carter One', cursive;
+    margin:10px;
+    margin-bottom:60px;
+    display:inline;
+}
+.more{
+    margin-top:20px;
+    display:inline-block;
+    text-align:center;
+    padding:15px;
+    color:white;
+    background-color:brown;
+    border: 0.5px solid;
+    width:40%;
+    cursor:pointer;
+}
+.sair{
+    color:red;
+    background-color: white;
+    border:none;
+    display: flex;
+    justify-content: flex-end;
+    cursor:pointer;
+}
+.daily-hidden{
+    font-size:25px;
+    margin:35px;
+    padding:13px;
+    border:0.01px solid rgb(212, 116, 116);
+    border-radius: 15px;
+    display:none;
+}
+
+
+footer{
+    background:linear-gradient(rgb(1, 100, 1),rgb(86, 209, 86), rgb(19, 121, 19),rgb(1, 100, 1));
+}
+.logoft{
+    display:inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width:10%;
+    color:whitesmoke;
+}
+
+.place-desc{
+    margin:15px;
+    font-size: 25px;
+    color:whitesmoke;
+}
+.map{
+    margin-bottom:30px;
+    margin-left:10%;
+}
