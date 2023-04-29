@@ -43,8 +43,8 @@
                 <label class="label">Telefone:</label>
                 <input type="tel" placeholder="+ xx (xx) x xxxx-xxxx" id="telefone" class="input" required>
                 <label for="txtarea" class="label">Deixe uma mensagem:</label>
-                <textarea rows="10" cols="50" id="txtarea"></textarea>
-                <label for="check" class="label">Gostaria de receber mais informacoes?</label>
+                <textarea rows="10" cols="30" id="txtarea"></textarea>
+                <label for="check" class="label" id="txtcheck">Gostaria de receber mais informacoes?</label>
                 <input type="checkbox" placeholder="sim" id="check" checked>
                 <label class="label">Qual periodo e o mais apropriado para entrarmos em contato?</label>
                 <select id="sel">
@@ -52,7 +52,11 @@
                     <option>Tarde</option>
                     <option>Noite</option>
                 </select>
-
+                <label class="label">Qual forma de contato voce prefere?</label>
+                <section class="sec2">
+                    <input type="radio" class="rdin" name="in" checked><p>E-mail</p>
+                    <input type="radio" class="rdin" name="in"><p>Telefone</p>
+                </section>
             </section>
         </main>
         <script src="main.js"></script>
