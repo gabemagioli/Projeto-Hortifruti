@@ -1,0 +1,104 @@
+html{
+    width:940px;
+}
+.logo{
+    width: 10%;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-between;
+    align-items: center;
+    background-image: url('https://png.pngtree.com/back_origin_pic/04/15/25/b37c628ea364dbe8480d278021cb23aa.jpg');
+}
+
+.h1-header{
+    font-family: 'Goldman', cursive;
+    font-size:20px;
+}
+
+.pesquisa{
+    margin-left:15px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    height:19px;
+}
+
+.lupa{
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: white;
+    cursor:pointer;
+}
+
+.select{
+    align-content: space-between;
+    margin:5px;
+}
+
+.li{
+    display:inline-block;
+    margin:5px;
+    border:2px solid rgb(65, 107, 2);
+    border-radius:10px;
+    
+}
+
+ul a {
+    font-size:17px;
+    margin:3px;
+    cursor:pointer;
+    font-family: 'Goldman', cursive;
+}
+
+.informacoes{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    cursor:pointer;
+    background-color:rgb(86, 209, 86);
+    padding:10px;
+}
+
+.info-li{
+    font-family: 'Goldman', cursive;
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+
+.sobre{margin:30px;
+    border:1px solid;
+    border-radius: 15px;}
+.sobre-hidden{
+    margin:10px;
+    font-size:20px;
+    font-family: 'Goldman', cursive;
+    display: none;
+}
+
+section{
+    display:flex;
+    flex-direction: column;
+    margin:25px;
+}
+.label{
+    font-size:25px;
+    font-family: 'Goldman', cursive;
+    padding:15px;
+}
+
+.input{
+    width: 60%;
+}
+#sel{
+    width:10%;
+    margin:15px;
+}
+
+
+
+

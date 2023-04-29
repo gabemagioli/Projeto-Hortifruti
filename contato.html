@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Projeto Horti</title>
+        <link rel="stylesheet" href="reset.css"/>
+        <link rel="stylesheet" href="contato.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Goldman&family=Orbitron&family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Carter+One&family=Goldman&family=Orbitron&family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <img src="https://www.filepicker.io/api/file/JxRsLLVWQmO3jABSQhKo" alt="logo hortifruti" class="logo"/><h1 class="h1-header">CheckFRUIT</h1>
+            <input type="text" placeholder="Buscar..." class="pesquisa"/>
+            <button class="lupa">&#x1F50D;</button>
+            <ul>
+                <li class="li"><a class="li-a">Login</a></li>
+                <li class="li"><a>Cadastre-se</a></li>
+            </ul>
+        </header>
+        
+        <section class="infos">
+            <ul class="informacoes">
+                <li class="info-li"><a class="info-li" id="about">Sobre</a></li>
+                <li class="info-li"><a class="info-li" href="index.html">Produtos</a></li>
+                <li class="info-li"><a class="info-li" href="contato.html">Contato</a></li>
+            </ul>
+        </section>
+
+        <section class="sobre">
+            <p class="sobre-hidden" class="sobre">Somos uma empresa voltada a venda de produtos naturais. Temos amor pelo que fazemos e sempre buscamos trazer o bem-estar para a vida dos nossos clientes.
+                Contamos com uma grande equipe de profissionais qualificados e muito bem preparados para atender nossos clientes com todo carinho do mundo.
+            </p>
+        </section>
+
+        <main>
+            <section>
+                <label for="nomeUser" class="label">Nome de Usuario:</label>
+                <input type="text" placeholder="User" id="nomeUser" class="input" required>
+                <label for="email" class="label">E-mail:</label>
+                <input type="email" placeholder="nome@gmail.com" id="email" class="input" required>
+                <label class="label">Telefone:</label>
+                <input type="tel" placeholder="+ xx (xx) x xxxx-xxxx" id="telefone" class="input" required>
+                <label for="txtarea" class="label">Deixe uma mensagem:</label>
+                <textarea rows="10" cols="50" id="txtarea"></textarea>
+                <label for="check" class="label">Gostaria de receber mais informacoes?</label>
+                <input type="checkbox" placeholder="sim" id="check" checked>
+                <label class="label">Qual periodo e o mais apropriado para entrarmos em contato?</label>
+                <select id="sel">
+                    <option>Manha</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+
+            </section>
+        </main>
+        <script src="main.js"></script>
+    </body>
+  <html>
+
