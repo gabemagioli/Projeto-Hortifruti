@@ -48,9 +48,12 @@ header{
 }
 /*carrinho de compras*/
 .carrinho{
-    margin-left:15px;
+    margin-left:30px;
     cursor:pointer;
-
+}
+.carrinho:hover{
+    transform:scale(1.6);
+    transition:0.5s;
 }
 
 ul a {
@@ -148,7 +151,7 @@ section{
     align-content: center;
     margin-left: 300px;
     margin-bottom: 20px;
-    background-image: url('https://png.pngtree.com/back_origin_pic/04/15/25/b37c628ea364dbe8480d278021cb23aa.jpg');
+    background: #c2833b;
     color:rgb(255, 255, 255);
     font-weight: bold;
     border:none;

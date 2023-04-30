@@ -8,7 +8,6 @@ document.querySelector('#about').addEventListener('mouseout', function(){//remov
 });
 
 //manipulando botao ver mais e o botao de sair 
-
 const more = document.querySelectorAll('.more');
 const hide = document.querySelectorAll('.daily-hidden')
 const sair = document.querySelectorAll('.sair')
@@ -23,3 +22,9 @@ for(let i = 0; i < more.length; i++){
     })
 }
 
+//manipulando botao enviar da pasta contato.
+const sub = document.querySelector('#submition');
+sub.addEventListener('click', function(){
+    sub.style.backgroundColor = '#7FFF00';
+    sub.value = 'ENVIADO';
+})
