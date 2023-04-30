@@ -45,6 +45,12 @@ header{
     border-radius:10px;
     
 }
+/*carrinho de compras*/
+.carrinho{
+    margin-left:15px;
+    cursor:pointer;
+
+}
 
 ul a {
     font-size:17px;
