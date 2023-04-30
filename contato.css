@@ -1,5 +1,6 @@
 html{
     width:940px;
+    background:#fff9f2;
 }
 .logo{
     width: 10%;
@@ -80,6 +81,7 @@ ul a {
     display: none;
 }
 
+
 section{
     display:flex;
     flex-direction: column;
@@ -106,6 +108,7 @@ section{
 }
 #txtarea{
     width:50%;
+    margin-left:25px;
 }
 #check{
     display: flex;
@@ -128,6 +131,39 @@ section{
 }
 .rdin{
     margin-left: 45px;
+}
+#submition{
+    width:30%;
+    height:50px;
+    align-content: center;
+    margin-left: 300px;
+    margin-bottom: 20px;
+    background-image: url('https://png.pngtree.com/back_origin_pic/04/15/25/b37c628ea364dbe8480d278021cb23aa.jpg');
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    border:none;
+    border-radius: 5px;
+    
+}
+#submition:hover{
+    transform:scale(1.12);
+    transition: 1s;
+}
+
+footer{
+    height:100px;
+    background:#c2833b;
+    display:flex;
+    flex-direction:column;
+    
+}
+.logoft{
+    display:inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width:10%;
+    color:whitesmoke;
 }
 
 
