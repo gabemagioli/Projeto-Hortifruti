@@ -99,13 +99,15 @@ ul a {
 
 .produto-fruta{
     display:flex;
+    flex-wrap: wrap;
     flex-direction:row;
     align-items: baseline;
 }
 .box-fruta{
+    margin-top:10px;
     margin-left:10px;
     border:1px solid grey;
-    width:33%;
+    width:30%;
     height:400px;
     display:flex;
     flex-direction: column;
