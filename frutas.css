@@ -1,0 +1,162 @@
+html{
+    width:940px;
+    background:#fff9f2;
+}
+.logo{
+    width: 10%;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-between;
+    align-items: center;
+    background-image: url('https://png.pngtree.com/back_origin_pic/04/15/25/b37c628ea364dbe8480d278021cb23aa.jpg');
+}
+
+.h1-header{
+    font-family: 'Goldman', cursive;
+    font-size:20px;
+}
+
+.pesquisa{
+    margin-left:15px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    height:19px;
+}
+
+.lupa{
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: white;
+    cursor:pointer;
+}
+
+.select{
+    align-content: space-between;
+    margin:5px;
+}
+
+.li{
+    display:inline-block;
+    margin:5px;
+    border:2px solid rgb(65, 107, 2);
+    border-radius:10px;
+}
+.li-a{
+    text-decoration: none;
+}
+/*carrinho de compras*/
+.carrinho{
+    margin-left:30px;
+    cursor:pointer;
+}
+.carrinho:hover{
+    transform:scale(1.6);
+    transition:0.5s;
+}
+
+ul a {
+    font-size:17px;
+    margin:3px;
+    cursor:pointer;
+    font-family: 'Goldman', cursive;
+}
+
+.infos{
+    width:100%;
+    margin:0;
+}
+.informacoes{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    cursor:pointer;
+    background-color:rgb(86, 209, 86);
+    padding:10px;
+}
+
+.info-li{
+    font-family: 'Goldman', cursive;
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+
+.sobre{margin:30px;
+    border:1px solid;
+    border-radius: 15px;
+}
+.sobre-hidden{
+    margin:10px;
+    font-size:20px;
+    font-family: 'Goldman', cursive;
+    display: none;
+}
+
+.produto-fruta{
+    display:flex;
+    flex-direction:row;
+    align-items: baseline;
+}
+.box-fruta{
+    margin-left:10px;
+    border:1px solid grey;
+    width:33%;
+    height:400px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo-fruta{
+    font-size:25px;
+    font-family: 'Carter One', cursive;
+    text-align:center;
+    margin:15px
+}
+.img-fruta{
+    width:60%;
+    margin:15px;
+}
+.preco-fruta{
+    margin:20px;
+    font-size:23px;
+    font-family: 'Carter One', cursive;
+}
+.comprar{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    margin-top:20px;
+    margin-left:125px;
+}
+.add-carrinho{
+    width:60%;
+    height:30px;
+    background-color: #c2833b;
+    border:none;
+    color:white;
+    font-weight:bold;
+    margin-left:15px;
+}
+.inp-fruta{
+    width:16%;
+    border:none;
+}
+.menos{
+    margin-right:5px;
+    width:10%;
+    background:white;
+    border:none;
+    color:black
+}
+.mais{
+    margin-left:5px;
+    width:10%;
+    background:white;
+    border:none;
+    color:black;
+}

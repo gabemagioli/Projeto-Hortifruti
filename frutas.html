@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Projeto Horti</title>
+        <link rel="stylesheet" href="reset.css"/>
+        <link rel="stylesheet" href="frutas.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Goldman&family=Orbitron&family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Carter+One&family=Goldman&family=Orbitron&family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <img src="https://www.filepicker.io/api/file/JxRsLLVWQmO3jABSQhKo" alt="logo hortifruti" class="logo"/><h1 class="h1-header">CheckFRUIT</h1>
+            <input type="text" placeholder="Buscar..." class="pesquisa"/>
+            <button class="lupa">&#x1F50D;</button>
+            <ul>
+                <li class="li"><a class="li-a" href="login.html">Login</a></li>
+                <li class="li"><a>Cadastre-se</a></li>
+            </ul>
+            <h2 class="carrinho">&#x1F6D2;</h2>
+        </header>
+
+        <section class="infos">
+            <ul class="informacoes">
+                <li class="info-li"><a class="info-li" id="about">Sobre</a></li>
+                <li class="info-li"><a class="info-li" href="index.html">Produtos</a></li>
+                <li class="info-li"><a class="info-li" href="contato.html">Contato</a></li>
+            </ul>
+        </section>
+
+        <section class="sobre">
+            <p class="sobre-hidden" class="sobre">Somos uma empresa voltada a venda de produtos naturais. Temos amor pelo que fazemos e sempre buscamos trazer o bem-estar para a vida dos nossos clientes.
+                Contamos com uma grande equipe de profissionais qualificados e muito bem preparados para atender nossos clientes com todo carinho do mundo.
+            </p>
+        </section>
+        <main>
+            <section class="produto-fruta">
+                <div class="box-fruta">
+                    <h2 class="titulo-fruta">Laranja</h2>
+                    <img src="https://th.bing.com/th/id/R.d8dbd270a15b412f1f7076ad36bd8a80?rik=ByVYwZKkUVepcw&riu=http%3a%2f%2fwww.sulinformacao.pt%2fwp-content%2fuploads%2f2017%2f02%2flaranjas.png&ehk=0V4m6PH3dt5MAbaDbDwUVpF6x79iZy3TIjNCYpJroo8%3d&risl=&pid=ImgRaw&r=0" class="img-fruta">
+                    <p class="preco-fruta">R$ 4,99/kg</p>
+                    <button class="add-carrinho">Adicionar ao carrinho</button>
+                    <div class="comprar">
+                        <button class="menos">-</button>
+                        <input type="number" class="inp-fruta" value="0">
+                        <button class="mais">+</button>
+                    </div>
+                </div>
+
+                <div class="box-fruta">
+                    <h2 class="titulo-fruta">Maracuja</h2>
+                    <img src="https://cdn.meucatalogodigital.com/sacolaototal/1192629-3.png" class="img-fruta">
+                    <p class="preco-fruta">R$ 2,89/kg</p>
+                    <button class="add-carrinho">Adicionar ao carrinho</button>
+                    <div class="comprar">
+                        <button class="menos">-</button>
+                        <input type="number" class="inp-fruta" value="0">
+                        <button class="mais">+</button>
+                    </div>
+                </div>
+
+                <div class="box-fruta">
+                    <h2 class="titulo-fruta">Melancia</h2>
+                    <img src="https://th.bing.com/th/id/R.a33588bd47a483e6895a28b57e926c66?rik=KbZZ9uI4L87mcA&pid=ImgRaw&r=0" class="img-fruta">
+                    <p class="preco-fruta">R$ 3,89/kg</p>
+                    <button class="add-carrinho">Adicionar ao carrinho</button>
+                    <div class="comprar">
+                        <button class="menos">-</button>
+                        <input type="number" class="inp-fruta" value="0">
+                        <button class="mais">+</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script src="main.js"></script>
+        <script src="fruta.js"></script>
+    </body>    
