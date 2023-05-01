@@ -42,8 +42,10 @@ header{
     display:inline-block;
     margin:5px;
     border:2px solid rgb(65, 107, 2);
-    border-radius:10px;
-    
+    border-radius:10px;   
+}
+.li-a{
+    text-decoration: none;
 }
 /*carrinho de compras*/
 .carrinho{

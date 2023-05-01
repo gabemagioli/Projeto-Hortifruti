@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Projeto Horti</title>
+        <link rel="stylesheet" href="reset.css"/>
+        <link rel="stylesheet" href="login.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Goldman&family=Orbitron&family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Carter+One&family=Goldman&family=Orbitron&family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <img src="https://www.filepicker.io/api/file/JxRsLLVWQmO3jABSQhKo" alt="logo hortifruti" class="logo"/><h1 class="h1-header">CheckFRUIT</h1>
+            <input type="text" placeholder="Buscar..." class="pesquisa"/>
+            <button class="lupa">&#x1F50D;</button>
+            <ul>
+                <li class="li"><a href='login.html' class="li-a">Login</a></li>
+                <li class="li"><a>Cadastre-se</a></li>
+            </ul>
+            <h2 class="carrinho">&#x1F6D2;</h2>
+        </header>
+
+        <section class="infos">
+            <ul class="informacoes">
+                <li class="info-li"><a class="info-li" id="about">Sobre</a></li>
+                <li class="info-li"><a class="info-li" href="index.html">Produtos</a></li>
+                <li class="info-li"><a class="info-li" href="contato.html">Contato</a></li>
+            </ul>
+        </section>
+
+        <section class="sobre">
+            <p class="sobre-hidden" class="sobre">Somos uma empresa voltada a venda de produtos naturais. Temos amor pelo que fazemos e sempre buscamos trazer o bem-estar para a vida dos nossos clientes.
+                Contamos com uma grande equipe de profissionais qualificados e muito bem preparados para atender nossos clientes com todo carinho do mundo.
+            </p>
+        </section>
+
+        <main>
+            <section class="log-sec">
+                <label for="mail" class="label">Nome de usuario ou E-mail</label>
+                <input type="email" id="mail" class="input" required/>
+                <label for="pass" class="label" id="senha">Senha</label>
+                <input type="password" id="pass" class="input" required/>
+                <div class="keep-logged">
+                    <label for="checklog">Deseja se manter-se logado?</label>
+                    <input type="checkbox" id="checklog" checked/>
+                </div>
+                <p class="or">---------------------------------------------------or----------------------------------------------------</p>
+                <div class="logar-alternativas">
+                    <button class="button"><img src="https://logos-world.net/wp-content/uploads/2020/09/Google-Symbol.png" alt="simbolo google" class="img-google">Entrar com Google</button>
+                    <button class="button"><img src="https://1000logos.net/wp-content/uploads/2016/11/Facebook-logo.png" alt="facebook logo" class="img-facebook">Entrar com Facebook</button>
+                </div>
+                <div class="enviar">
+                    <input type="submit" value="ENTRAR" class="button" id="entrar">
+                </div> 
+            </section>
+            
+        </main>
+        <script src="main.js"></script>
+    </body>
