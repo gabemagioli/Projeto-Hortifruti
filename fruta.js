@@ -22,3 +22,17 @@ for(let y = 0; y < adicionarCarrinho.length; y++){
         }
     })
 }
+
+//bordas
+const displayBorderTop = document.querySelectorAll('.infor-li');
+for(let i = 0; i < displayBorderTop.length; i++){
+    displayBorderTop[i].addEventListener('mouseover', function(){
+        displayBorderTop[i].style.border = 'solid';
+    });
+}
+
+for(let y = 0; y < displayBorderTop.length; y++){
+    displayBorderTop[y].addEventListener('mouseout', function(){
+        displayBorderTop[y].style.border = 'none';
+    });
+}

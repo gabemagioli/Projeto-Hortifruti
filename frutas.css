@@ -48,6 +48,7 @@ header{
 .li-a{
     text-decoration: none;
 }
+
 /*carrinho de compras*/
 .carrinho{
     margin-left:30px;
@@ -78,7 +79,12 @@ ul a {
     background-color:rgb(86, 209, 86);
     padding:10px;
 }
-
+.infor-li{
+    border: 2px  black;
+    border-radius: 18px;
+    height: 30px;
+    padding-top:11px;
+}
 .info-li{
     font-family: 'Goldman', cursive;
     text-decoration: none;
